@@ -51,9 +51,9 @@
 .input-action button {
   display: flex;
   padding: 0.8rem 1rem;
-  font-size: inherit;
+  font-size: 1.1rem;
   font-weight: 500;
-  background-color: #434343;
+  background-color: #007b13;
   cursor: pointer;
   color: inherit;
   border: none;
@@ -68,10 +68,11 @@
 
 .challenge {
   padding: 1rem;
-  border: 1px solid saddlebrown;
   display: flex;
   flex-direction: column;
+  border-radius: 4px;
   gap: 1rem;
+  background-color: rgb(0, 77, 77);
 }
 
 .challenge-head {
@@ -80,10 +81,15 @@
   align-items: center;
 }
 
+.challenge-head h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
 .action-button {
   display: flex;
   padding: 0.8rem 1rem;
-  font-size: inherit;
+  font-size: 1.2rem;
   font-weight: 500;
   justify-content: center;
   background-color: yellowgreen;
